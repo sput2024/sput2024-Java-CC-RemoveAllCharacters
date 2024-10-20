@@ -1,4 +1,6 @@
 
+import java.util.*;
+import java.lang.*;
 public class RemoveAllCharacter {
     /**
      * Return a String that has all the character of a String removed.
@@ -11,7 +13,12 @@ public class RemoveAllCharacter {
      * @param ch A string containing a single character which should be removed from str.
      * @return str, without any characters of type ch.
      */
+    public static void main(String[] args){}
+
     public String removeAll(String str, String ch){
-        return null;
+        
+        String newString = str.replace(ch,"");
+     
+        return newString;
     }
 }
